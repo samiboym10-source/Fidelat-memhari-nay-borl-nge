@@ -393,12 +393,12 @@ function draw(){
 /* ---------- Firebase: delat innehåll (barnets framsteg stannar på enheten) ---------- */
 /* KLISTRA IN DIN FIREBASE-CONFIG HÄR */
 var FB={
-  apiKey:"PASTE_API_KEY",
-  authDomain:"PASTE_AUTH_DOMAIN",
-  projectId:"PASTE_PROJECT_ID",
-  storageBucket:"PASTE_STORAGE_BUCKET",
-  messagingSenderId:"PASTE_SENDER_ID",
-  appId:"PASTE_APP_ID"
+  apiKey:"AIzaSyCcHCvLkUHb6f43e2J8SpwBIAgQspgB-Cc",
+  authDomain:"hxanat-fidelat.firebaseapp.com",
+  projectId:"hxanat-fidelat",
+  storageBucket:"hxanat-fidelat.firebasestorage.app",
+  messagingSenderId:"1076543453785",
+  appId:"1:1076543453785:web:a2da0c9edb6a879bab4f48"
 };
 var ON=!/^PASTE/.test(FB.apiKey),DB=null,RAX={},PT=0,PUSHING=false,AGAIN=false,SYNCED=false,PID=0,BIGWARN=false;
 function fh(s){var h=2166136261;for(var i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return(h>>>0).toString(36)+'-'+s.length.toString(36)}
